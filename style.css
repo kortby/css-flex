@@ -1,0 +1,81 @@
+html,
+body {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 100%;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
+	width: 475px;
+	height: 258px;
+	display: flex;
+	border-radius: 12px;
+}
+
+.card-aside {
+	padding: 20px;
+	background-image: linear-gradient(0deg,#f19a1a,#ffc73c);
+	border-radius: 12px 0 0 12px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	color: #fff;
+}
+
+.card-aside button {
+	padding: 8px 25px;
+	border-radius: 10px;
+	border: none;
+	background-color: rgb(0, 0, 0, .3);
+	color: inherit;
+}
+
+h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.card-text {
+	padding: 20px;
+	color: #999;
+	display: flex;
+	flex-direction: column;
+}
+
+.card-text .content {
+	margin-bottom: auto;
+}
+
+.card-text-title {
+	color: #222;
+	font-weight: 600;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+.card-text .footer {
+	display: flex;
+	font-size: .8em;
+	width: 200px;
+	justify-content: space-between;
+}
+
+.footer .item {
+	flex: 1;
+}
+
+.material-icons {
+	font-size: 14px;
+	margin-right: 5px;
+	padding: 0;
+	vertical-align: middle;
+}
